@@ -1,0 +1,185 @@
+
+.monysherr{
+    display: flex;
+    padding: 40px 40px 0 40px;
+    gap: 20px;
+    align-items: center;
+}
+.monysherr p{
+    margin-top: 10px;
+}
+.monysherr h3{
+    font-weight: 600;
+}
+.cardte{
+    display: flex;
+    gap: 15px;
+}
+.imgteble{
+    width: 120px;
+    overflow: hidden;
+    height: 100px;
+    border: 1px solid rgba(184, 183, 183, 0.295);
+}
+
+.imgteble img{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    object-position: center center;
+}
+.cardte{
+    width: 390px;
+}
+
+@media (max-width:800px) {
+
+}
+
+
+.textimgct{
+    width: 50%;
+}
+.textimgct a{
+    color: #000;
+
+}
+.textco{
+    display: flex;
+    gap: 5px;
+    color: rgba(51, 51, 51, 0.63);
+}
+
+.right_pro > h2{
+    color: #535353;
+}
+
+.body_pro table tr{
+    align-items: center;
+    vertical-align: middle;
+}
+
+
+.counter{
+    width: 80px;
+    height: 35px;
+
+}
+.counter i{
+    font-size: 18px;
+}
+
+.nn{
+    width:10px;
+}
+.num span{
+    font-size: 16px;
+}
+.close{
+    cursor: pointer;
+}
+
+/* ///////////moodelpay/////////////////// */
+
+.moodelpay{
+    background-color: #fff;
+    width: 450px;
+    padding: 30px;
+}
+
+.moodelpay2{
+    background-color: #fff;
+    width: 450px;
+    padding: 30px;
+}
+.titlecardpay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titlecardpay p{
+    margin-top: 15px;
+    font-size: 18px;
+}
+.btnpay {
+    display: flex;
+    gap: 10px;
+}
+.btnpay button{
+    border: none;
+    background-color:#28aae1;
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+}
+.btnpay .b2{
+    border: 1px solid #28aae1;
+    background-color: transparent;
+    color: #28aae1;
+}
+
+.imgcardpay{
+    display: flex;
+    justify-content: space-between;
+}
+
+.allbuy{
+    color: #707070;
+}
+.allbuy h3{
+    font-weight: 600;
+}
+
+
+.alldown{
+    padding: 6px 20px;
+}
+.inputpay {
+    margin-bottom: 10px;
+}
+.inputpay input{
+    width: 100%;
+    height: 40px;
+    padding: 3px 15px;
+    outline: none;
+    border: 1px #7070704f solid;
+    border-radius: 4px;
+    margin-top: 3px;
+}
+.inputpay P{
+    margin: 0;
+}
+
+.smallinput{
+    display: flex;
+    gap: 10px;
+}
+
+.smallinput input{
+    width: 70px;
+    padding-right: 23px ;
+}
+
+.inputdawn{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.inputdawn .coo input{
+    width: 100px;
+}
+
+.buybtn{
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    border: none;
+    background-color: #28aae1;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.modal-con3{
+    width: auto;
+}

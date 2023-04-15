@@ -1,0 +1,302 @@
+
+
+.body_make{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.leftsidemake{
+    background-color: #fff;
+    padding: 20px 0;
+    width: 300px;
+}
+.parts{
+    border-bottom: 1px solid rgba(151, 151, 151, 0.63);
+
+}
+.piece_ma{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 80px;
+ 
+}
+.piece_ma p{
+    margin-top: 10px;
+}
+
+.totlalpc{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.btnmakepc{
+    margin-top: 40px;
+}
+.btncartposh{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    border: none;
+    padding: 0 20px;
+    background-color: #28AAE1;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.btncartposh2{
+    background-color: #ffb300;
+}
+.btncartposh p{
+    margin-top: 10px;
+}
+.btncartposh i{
+    font-size: 23px;
+}
+.btncartposh img{
+    width: 25px;
+}
+
+
+
+.rightsidemake{
+    background-color: #fff;
+    width: 70%;
+    padding: 20px;
+}
+
+.leftcardmake {
+    width: 50%;
+    height: 200px;
+    overflow: hidden;
+}
+.leftcardmake img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+.allsearch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.ordermake{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ordermake p{
+    margin-top: 25px;
+}
+.ordermake select{
+    padding: 10px;
+    border-radius: 5px;
+    color: #707070;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+
+.allcardmake{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+/* ///////////////////lisersh//////////////////////// */
+.lisershh{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+    direction: ltr;
+    margin-bottom: 10px;
+  }
+
+
+  .serchss{
+    width: 100%;
+    background-color: #28AAE1;
+    border-radius: 8px !important;
+  }
+
+  @media (max-width:600px) {
+    .serchss{
+        width: 100%;
+        background-color: #28AAE1;
+        border-radius: 8px;
+      }
+  }
+  .serchss input{
+    width: 100%;
+    padding: 9px;
+    border-radius: 8px 0 0 8px !important ;
+    border: 1px solid #28AAE1;
+    direction: rtl;
+    outline: none;
+  
+  }
+  .serchss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  .serchss i{
+    font-size: 23px;
+    padding-left: 15px;
+    color: #fff;
+
+  }
+
+  /* /////////////////////////////////////////////// */
+
+  .cardmake{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .monee{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    float: left;
+    margin-left: 20px;
+  }
+
+  .codepro{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .codepro .linetext{
+    text-decoration: line-through;
+    color: #28AAE1;
+  }
+
+  .btncartt{
+    display: flex;
+    gap: 10px;
+    float: left;
+    margin-left: 20px;
+  }
+
+
+.btncho{
+    border: none;
+    background-color: #ffb300;
+    color: #fff;
+    width: 50px;
+    height: 35px;
+    border-radius: 5px;
+}
+.btncho2{
+    border: none;
+    background-color: #28AAE1 ;
+    color: #fff;
+    width: 210px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+/* //////////////////////////////////////////////// */
+
+.carddet{
+    display: flex;
+    padding: 10px;
+    display: none;
+}
+.carddet.active{
+    display: flex;
+}
+.llcr{
+    direction: ltr;
+}
+.llcr p{
+    margin: 0;
+    font-size: 14px;
+}
+.imgdetlas{
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.closecard{
+    cursor: pointer;
+}
+
+@media (max-width:1100px) {
+    .leftcardmake {
+        width: 300px;
+        height: 100px;
+        overflow: hidden;
+    }
+    .leftcardmake img{
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+}
+@media (max-width:850px) {
+    .body_make{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .leftsidemake{
+        width: 100%;
+        margin-bottom:20px;
+    }
+    .rightsidemake{
+        width: 100%;
+        
+    }
+    .piece_ma{
+        margin: auto;
+        justify-content: center;
+    }
+    .carddet.active{
+        justify-content: center;
+    }
+
+}
+
+@media (max-width:650px) {
+    .cardmake{
+        flex-direction: column;
+    }
+    .leftcardmake  {
+        width: 200px;
+        height: 150px;
+        /* margin-right: auto;
+        margin-left: auto; */
+    }
+    .leftcardmake  img{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .btncho2{
+        width: 180px;
+    }
+    .codepro{
+        font-size: 15px;
+    }
+    .allsearch{
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+}

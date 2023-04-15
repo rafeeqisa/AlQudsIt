@@ -1,0 +1,114 @@
+
+
+
+
+
+.btntebl{
+    display: flex;
+    gap: 10px;
+
+}
+
+.updatebtn{
+    background-color:#28aae1 ;
+    border-radius: 5px;
+    border: solid 1px #28aae1 ;
+    padding: 5px 20px;
+    color: #fff;
+}
+.closebtn{
+    background-color:#fff ;
+    border-radius: 5px;
+    border: solid 1px #28aae1 ;
+    padding: 5px 20px;
+    color: #28aae1;
+}
+
+.table select{
+    padding: 6px;
+    border-radius: 5px;
+    color: #707070;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.modal-con3{
+    padding: 20px 50px !important;
+    margin: 0 auto;
+}
+
+@media (max-width:700px) {
+    .modal-con3{
+        width: 94% !important;
+    }
+}
+.totalte{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tetot{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-pills{
+width: 266px;
+    gap: 6px;
+}
+.b1{
+    width: 120px !important;
+    background-color: transparent;
+    border: 1px #28aae1 solid !important;
+    color: #28aae1 !important;
+}
+.b2{
+    width: 100px !important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff !important;
+}
+/* //////////////////////////////////////////////////////////// */
+
+@media (max-width:800px) {
+    .modal-con3{
+        padding: 20px 30px !important;
+    }
+    
+}
+
+@media (max-width:500px) {
+ .moodelpay{
+    width: 320px;
+ }
+ .nav-pills{
+    /* flex-direction: column; */
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .nav-pills {
+    gap: 6px;
+    width: 100%;
+    margin-left: 40px;
+}
+ .titlecardpay{
+    flex-direction: column;
+ }
+ .titlecardpay p{
+    font-size: 20px;
+ }
+ .nav-pills button{
+    width: 110px !important;
+    font-size: 14px;
+ }
+ .imgcardpay img{
+    width: 60px !important;
+ }
+ .moodelpay{
+    padding: 4px;
+ }
+ .imgpyp img{
+    width: 130px !important;
+ }
+}

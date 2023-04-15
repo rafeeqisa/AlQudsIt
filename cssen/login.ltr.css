@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400&display=swap');
+*{
+  font-family: 'Almarai', sans-serif;
+  box-sizing: border-box;
+
+}
+
+
+body{
+    direction: rtl;
+}
+.body_login{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_login{
+    width: 50%;
+    height: 100vh !important;
+    overflow: hidden;
+}
+.left_login img{
+    width: 100% ;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.right_login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+@media (min-width:1500px) {
+    .right_login{
+        transform: scale(1.1);
+    }
+}
+
+.loginbtn{
+    display: flex;
+    padding-top: 10px;
+    gap: 10px;
+    background-color: #fff;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 6px 30px 0px 30px;
+    height: 40px;
+    color: #4d4c4c;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 280px;
+}
+.loginbtn img{
+    width: 20px;
+}
+.loginbtn  .f{
+    width: 11px;
+}
+
+.loginemail{
+    display: flex;
+    align-items: center;
+    color: #4d4c4cdc;
+    gap: 10px;
+    margin-top: 15px;
+}
+.linlig{
+    width: 100px;
+    height: 2px;
+    background-color: #80808018;
+    margin-bottom: 10px;
+}
+
+.inputlog p{
+    margin: 2px;
+    color: #494949;
+}
+.inputlog input{
+    width: 280px;
+    height: 40px;
+    padding: 7px;
+    padding-right: 20px;
+    border: #D6DCE0 solid 1px;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+}
+
+.regs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+}
+.checkboxl{
+    display: flex;
+    gap: 5px;
+}
+.checkboxl p{
+    margin-top: 12px;
+}
+
+.logingbtn{
+    color: #fff;
+    border: none;
+    background-color: #28aae1;
+    padding: 7px;
+    width: 280px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.right_login .textl{
+   margin-top: 10px;
+}
+
+@media (max-width:1200px) {
+    .left_login{
+        display: none;
+    }
+    .right_login{
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+@media (max-width:500px) {
+    .loginemail p{
+        font-size: 14px;
+    }
+    .loginemail .linlig{
+        width: 50px;
+    }
+}
+
+
+/* /////////////////////////////////////////////////////// */
+
+
+.containerr{
+    width: 310px;
+    background: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 25px 10px 25px;
+    direction: ltr;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .containerr header{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 0 30px 0;
+  }
+  .containerr .form-outer{
+    width: 100%;
+    overflow: hidden;
+  }
+  .containerr .form-outer form{
+    display: flex;
+    width: 400%;
+  }
+  .form-outer form .page{
+    width: 25%;
+    transition: margin-left 0.3s ease-in-out;
+  }
+  .form-outer form .page .title{
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .form-outer form .page .fieldd{
+    width: 330px;
+    height: 45px;
+    margin: 35px 0 10px 0;
+    display: flex;
+    position: relative;
+
+  }
+  .fieldd input{
+    direction: rtl;
+    padding-right: 20px;
+  }
+  .fieldd.fffk{
+      margin-top: 0 !important;
+  }
+  form .page .fieldd .label{
+    position: absolute;
+    top: -30px;
+    font-weight: 500;
+  }
+  form .page .fieldd input{
+    height: 100%;
+    width: 260px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 18px;
+  }
+  form .page .fieldd select{
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  form .page .fieldd button{
+    width: 160px ;
+    height: calc(100% + 5px);
+    border: none;
+    background: #28AAE1;
+    margin-top: -20px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+  }
+  form .page .fieldd .cc{
+      background: #D6DCE0;
+  }
+  form .page .fieldd button:hover{
+    background: #000;
+  }
+  form .page .btns button{
+    margin-top: -20px!important;
+  }
+  form .page .btns button.prev{
+    margin-right: 3px;
+    font-size: 17px;
+  }
+
+  .containerr .progress-barr{
+    display: flex;
+    margin: 40px 0;
+    user-select: none;
+  }
+  .containerr .progress-barr .stepp{
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  .containerr .progress-barr .stepp p{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(92, 92, 92, 0.5);
+    margin-bottom: 8px;
+    transition: 0.2s;
+    display: none;
+  }
+  .progress-barr .stepp p.active{
+    color: blue;
+  }
+  .progress-barr .stepp .bullet{
+    height: 25px;
+    width: 25px;
+    border: 2px solid rgba(92, 92, 92, 0.5);
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    transition: 0.2s;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    color: rgba(92, 92, 92, 0.5);
+  }
+  .progress-barr .stepp .bullet.active{
+    border-color: #FFB300;
+    background: #FFB300;
+  }
+  .progress-barr .stepp .bullet span{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .progress-barr .stepp .bullet.active span{
+    color: #fff;
+  }
+  .progress-barr .stepp .bullet:before,
+  .progress-barr .stepp .bullet:after{
+    position: absolute;
+    content: '';
+    bottom: 11px;
+    right: -51px;
+    height: 3px;
+    width: 44px;
+    background: rgba(92, 92, 92, 0.5);
+  }
+  .progress-barr .stepp .bullet.active:after{
+    background: #FFB300;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 0.3s linear forwards;
+  }
+  @keyframes animate {
+    100%{
+      transform: scaleX(1);
+    }
+  }
+  .progress-barr .stepp:last-child .bullet:before,
+  .progress-barr .stepp:last-child .bullet:after{
+    display: none;
+  }
+  .progress-barr .stepp p.active{
+    color: rgba(92, 92, 92, 0.5) ;
+    transition: 0.2s linear;
+  }
+  .progress-barr .stepp .check{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    font-size: 15px;
+    transform: translate(-50%, -50%);
+  
+  }
+  .progress-barr .stepp .check.active{
+    display: block;
+    color: #fff;
+  }
+  .bbb{
+      gap: 30px !important; 
+      flex-direction: column-reverse;
+  }
+  .bbb button{
+    width: 260px !important;
+    padding: 10px;
+  }
+  .bbbb{
+    margin-bottom: 80px !important;
+  }
+  /* .bbb button{
+    width: 124px !important;
+  }
+   */
+  .page h2{
+      text-align: right;
+  }
+  .inputche{
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20px;
+  }
+  .form-control{
+      width: 40px;
+      padding: .3em .1em;
+      font-size: 25px;
+      border-radius: 5px;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      border: 1px solid rgba(145, 145, 145, 0.541);
+  }
+  .imgfin{
+      width: 55%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .imgfin img{
+      width: 100%;
+  }
+  .textimgd{
+      margin-top: 20px;
+  }
+  .fa-check{
+      display: none;
+  }
+  .fa-check:before{
+      display: none;
+  }
+  .progress-barr .stepp .bullet:before, .progress-barr .stepp .bullet:after{
+      right: -44px;
+      bottom:9px;
+  }
+  .submit{
+      width: 249px !important;
+  }
+
+
+  .modal{
+    --bs-modal-width:360px;
+  }
+
+  .paddd{
+    text-decoration: underline;
+    color: #28AAE1;
+  }

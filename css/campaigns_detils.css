@@ -1,0 +1,22 @@
+.allprocardd{
+    flex-direction: row-reverse;
+}
+
+.imgCardd{
+    height: 310px;
+}
+.imgCardd img{
+    height: 310px;
+}
+
+.textprod{
+   /* width: 80%;*/
+}
+@media (max-width:860px) {
+    .allprocardd{
+        flex-direction: column-reverse !important;
+    }
+    .left_imgpro{
+        margin-top:0 ;
+    }
+}
