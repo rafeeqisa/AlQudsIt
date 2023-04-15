@@ -11,6 +11,9 @@
 .rightsidesett{
     width: 25%;
 }
+
+
+
 .toprightsidesett{
     background-color: #fff;
     display: flex;
@@ -21,7 +24,7 @@
     display: flex;
     align-items: center;
     gap: 5px
-} 
+}
 .updateprof p{
    margin-top: 18px;
 }
@@ -44,7 +47,7 @@
     height: 150px;
     object-fit: cover;
     object-position: center center;
-   
+
 }
 
 .lineimgpro{
@@ -101,7 +104,7 @@
 
 .settelest li.active,
 .settelest li.active a i,
-.settelest li.active a{    
+.settelest li.active a{
     background-color: #28aae1;
     color: #fff;
 }
@@ -188,7 +191,7 @@
     .container, .container-md, .container-sm {
         max-width: 99%;
     }
-} 
+}
 
 
 
@@ -296,7 +299,7 @@
     width: 100%;
 }
 
-/* 
+/*
 .fade2{
     --bs-modal-width: 90%;
 } */

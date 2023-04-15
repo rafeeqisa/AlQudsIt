@@ -60,8 +60,20 @@
     border-radius: 5px;
     outline: none;
 }
+.inputt select{
+    width: 540px;
+    padding:  0;
+    border: 1px rgba(131, 131, 131, 0.377) solid;
+    border-radius: 5px;
+    outline: none;
+}
 
+.inputjobs{
+    display: flex;
+    width: 300px;
 
+    gap: 40px;
+}
 .clien{
     background-color: transparent;
     color: #28AAE1;
@@ -73,14 +85,17 @@
 }
 
 @media (max-width:1130px) {
-    
+
 .bodyconta{
     flex-direction: column;
     align-items: center;
     gap: 50px;
 }
 .inputt textarea{
-    width: 641px;
+    width: 300px;
+}
+.inputt select{
+    width: 300px !important;
 }
 .inputt input{
     width: 300px;
@@ -105,6 +120,12 @@
     .inputt textarea{
         width: 300px;
     }
+    .inputjobs{
+        display: flex;
+        width: 300px;
+
+        gap: 10px;
+    }
 }
 @media (max-width:500px) {
     .leftsideco{
@@ -112,5 +133,11 @@
     }
     .imgmap img{
         width: 300px;
+    }
+    .inputjobs{
+        display: flex;
+        width: 300px;
+
+        gap: 10px;
     }
 }

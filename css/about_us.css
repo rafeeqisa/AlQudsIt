@@ -3,8 +3,11 @@
     .textimgh p{
         font-size: 14px;
     }
-    
+
 }
+
+
+
 
 .body_about{
     background-color: #fff;
@@ -13,6 +16,9 @@
     border-radius: 8px;
     border: 1px solid rgba(112, 112, 112, 0.171);
 }
+
+
+
 
 .textabout{
     margin-bottom: 20px;
